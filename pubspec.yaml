@@ -1,0 +1,38 @@
+name: internshala_assignment
+description: "A new Flutter project."
+publish_to: "none"
+version: 0.1.0
+
+environment:
+  sdk: ">=3.4.3 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  go_router:
+  flutter_riverpod:
+  riverpod_annotation:
+  phosphor_flutter:
+  dio:
+  flutter_native_splash:
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+  build_runner:
+  go_router_builder:
+  riverpod_generator:
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/
+
+flutter_native_splash:
+  color: "#ffffff"
+  image: assets/splash.png
+  android: true
